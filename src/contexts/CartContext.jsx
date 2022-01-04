@@ -4,7 +4,7 @@ export const CartContext = createContext();
 
 
 export const CartContextProvider = ({ children }) => {
-    const [cart, setCart] = useState(10);
+    const [cart, setCart] = useState(1);
     
     const handleCartUpdate = (value) => {
         setCart(cart + value);
